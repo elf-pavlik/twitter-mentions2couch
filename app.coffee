@@ -1,7 +1,7 @@
 Twit = require 'twit'
 cradle = require 'cradle'
 
-db = new(cradle.Connection)().database('ouisharefest-mentions')
+db = new(cradle.Connection)('127.0.0.1').database('ouisharefest-mentions')
 
 T = new Twit
   consumer_key: process.env.CONSUMER_KEY
