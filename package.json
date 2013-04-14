@@ -1,0 +1,16 @@
+{
+  "name": "twitter-mentions2couch",
+  "version": "0.0.0",
+  "description": "listens to twitter Streaming API and saves mentions in couchdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "twit": "1.1.x",
+    "cradle": "0.6.x"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
